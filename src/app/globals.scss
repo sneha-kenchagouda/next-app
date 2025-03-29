@@ -1,0 +1,14 @@
+@use '@carbon/react';
+@use '@carbon/styles';
+@use "@carbon/react/scss/spacing" as *;
+@use '@carbon/react' as *;
+@use '@carbon/react/scss/breakpoint' as *;
+@use '@carbon/styles/scss/grid/flexbox';
+@use '@carbon/react/scss/spacing' as *;
+@use '@carbon/react/scss/type' as *;
+@use '@carbon/react/scss/colors' as *;
+@use '@carbon/react/scss/layer' as *; 
+@use './login/login.scss';
+@use './dashboard/dashboard.scss';
+@use './archive/archive.scss';
+@use './products/product.scss';

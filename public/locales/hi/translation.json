@@ -1,0 +1,23 @@
+{
+    "login": {
+      "title": "लॉग इन",
+      "email": "ईमेल",
+      "email_placeholder": "अपना ईमेल दर्ज करें",
+      "password": "पासवर्ड",
+      "password_placeholder": "अपना पासवर्ड दर्ज करें",
+      "submit": "लॉग इन"
+    },
+    "language": "भाषा",
+    "select_language": "भाषा चुनें",
+    "languages": {
+      "english": "अंग्रेज़ी",
+      "hindi": "हिंदी",
+      "japanese": "जापानी"
+    },
+    "validation": {
+      "email_required": "ईमेल आवश्यक है",
+      "email_invalid": "अमान्य ईमेल पता",
+      "password_required": "पासवर्ड आवश्यक है",
+      "password_length": "कम से कम 8 अक्षर होने चाहिए"
+    }
+  }

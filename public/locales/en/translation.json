@@ -1,0 +1,23 @@
+{
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "email_placeholder": "Enter your email",
+      "password": "Password",
+      "password_placeholder": "Enter your password",
+      "submit": "Login"
+    },
+    "language": "Language",
+    "select_language": "Select Language",
+    "languages": {
+      "english": "English",
+      "hindi": "Hindi",
+      "japanese": "Japanese"
+    },
+    "validation": {
+      "email_required": "Email is required",
+      "email_invalid": "Invalid email address",
+      "password_required": "Password is required",
+      "password_length": "Must be at least 8 characters"
+    }
+  }
