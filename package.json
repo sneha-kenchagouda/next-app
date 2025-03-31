@@ -15,6 +15,7 @@
     "carbon-components-react": "^8.67.0",
     "formik": "^2.4.6",
     "i18next": "^24.2.3",
+    "i18next-resources-to-backend": "^1.2.1",
     "next": "15.2.3",
     "next-i18next": "^15.4.2",
     "react": "^19.0.0",
