@@ -162,42 +162,6 @@ eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__web
 
 /***/ }),
 
-/***/ "(ssr)/./public/locales lazy recursive ^\\.\\/.*\\/.*\\.json$":
-/*!******************************************************************!*\
-  !*** ./public/locales/ lazy ^\.\/.*\/.*\.json$ namespace object ***!
-  \******************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-var map = {
-	"./en/translation.json": [
-		"(ssr)/./public/locales/en/translation.json",
-		"_ssr_public_locales_en_translation_json"
-	],
-	"./hi/translation.json": [
-		"(ssr)/./public/locales/hi/translation.json",
-		"_ssr_public_locales_hi_translation_json"
-	]
-};
-function webpackAsyncContext(req) {
-	if(!__webpack_require__.o(map, req)) {
-		return Promise.resolve().then(() => {
-			var e = new Error("Cannot find module '" + req + "'");
-			e.code = 'MODULE_NOT_FOUND';
-			throw e;
-		});
-	}
-
-	var ids = map[req], id = ids[0];
-	return __webpack_require__.e(ids[1]).then(() => {
-		return __webpack_require__.t(id, 3 | 16);
-	});
-}
-webpackAsyncContext.keys = () => (Object.keys(map));
-webpackAsyncContext.id = "(ssr)/./public/locales lazy recursive ^\\.\\/.*\\/.*\\.json$";
-module.exports = webpackAsyncContext;
-
-/***/ }),
-
 /***/ "(ssr)/./src/app/dashboard/dashboard.scss":
 /*!******************************************!*\
   !*** ./src/app/dashboard/dashboard.scss ***!
@@ -227,7 +191,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   i18n: () => (/* binding */ i18n)\n/* harmony export */ });\n/* harmony import */ var i18next__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! i18next */ \"(ssr)/./node_modules/i18next/dist/esm/i18next.js\");\n/* harmony import */ var react_i18next__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-i18next */ \"(ssr)/./node_modules/react-i18next/dist/es/index.js\");\n/* harmony import */ var i18next_resources_to_backend__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! i18next-resources-to-backend */ \"(ssr)/../../node_modules/i18next-resources-to-backend/dist/esm/index.js\");\n/* harmony import */ var _settings__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./settings */ \"(ssr)/./src/app/i18n/settings.ts\");\n/* __next_internal_client_entry_do_not_use__ i18n auto */ \n\n\n\nconst i18nInstance = (0,i18next__WEBPACK_IMPORTED_MODULE_0__.createInstance)();\ni18nInstance.use(react_i18next__WEBPACK_IMPORTED_MODULE_1__.initReactI18next).use((0,i18next_resources_to_backend__WEBPACK_IMPORTED_MODULE_2__[\"default\"])((language, namespace)=>__webpack_require__(\"(ssr)/./public/locales lazy recursive ^\\\\.\\\\/.*\\\\/.*\\\\.json$\")(`./${language}/${namespace}.json`))).init({\n    ...(0,_settings__WEBPACK_IMPORTED_MODULE_3__.getOptions)(),\n    lng:  false ? 0 : 'en',\n    fallbackLng: 'en',\n    detection: {\n        order: [\n            'localStorage',\n            'navigator'\n        ],\n        caches: [\n            'localStorage'\n        ]\n    }\n});\nconst i18n = i18nInstance;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvYXBwL2kxOG4vY2xpZW50LnRzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OzBEQUV3QztBQUNRO0FBQ2E7QUFDdEI7QUFFdkMsTUFBTUksZUFBZUosdURBQWNBO0FBRW5DSSxhQUNHQyxHQUFHLENBQUNKLDJEQUFnQkEsRUFDcEJJLEdBQUcsQ0FBQ0gsd0VBQWtCQSxDQUNyQixDQUFDSSxVQUFrQkMsWUFBc0Isb0ZBQU8sR0FBeUIsRUFBRUQsU0FBUyxDQUFDLEVBQUVDLFVBQVUsTUFBTSxDQUFDLEdBRXpHQyxJQUFJLENBQUM7SUFDSixHQUFHTCxxREFBVUEsRUFBRTtJQUNmTSxLQUFLLE1BQTZCLEdBQzlCQyxDQUFnRCxHQUNoRDtJQUNKRSxhQUFhO0lBQ2JDLFdBQVc7UUFDVEMsT0FBTztZQUFDO1lBQWdCO1NBQVk7UUFDcENDLFFBQVE7WUFBQztTQUFlO0lBQzFCO0FBQ0Y7QUFFSyxNQUFNQyxPQUFPWixhQUFZIiwic291cmNlcyI6WyJDOlxcVXNlcnNcXFNLZW5jaGFnb3VkYVxcRGVza3RvcFxcc25laGFcXHNyY1xcYXBwXFxpMThuXFxjbGllbnQudHMiXSwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBjbGllbnQnXG5cbmltcG9ydCB7IGNyZWF0ZUluc3RhbmNlIH0gZnJvbSAnaTE4bmV4dCdcbmltcG9ydCB7IGluaXRSZWFjdEkxOG5leHQgfSBmcm9tICdyZWFjdC1pMThuZXh0J1xuaW1wb3J0IHJlc291cmNlc1RvQmFja2VuZCBmcm9tICdpMThuZXh0LXJlc291cmNlcy10by1iYWNrZW5kJ1xuaW1wb3J0IHsgZ2V0T3B0aW9ucyB9IGZyb20gJy4vc2V0dGluZ3MnXG5cbmNvbnN0IGkxOG5JbnN0YW5jZSA9IGNyZWF0ZUluc3RhbmNlKClcblxuaTE4bkluc3RhbmNlXG4gIC51c2UoaW5pdFJlYWN0STE4bmV4dClcbiAgLnVzZShyZXNvdXJjZXNUb0JhY2tlbmQoXG4gICAgKGxhbmd1YWdlOiBzdHJpbmcsIG5hbWVzcGFjZTogc3RyaW5nKSA9PiBpbXBvcnQoYC4uLy4uLy4uL3B1YmxpYy9sb2NhbGVzLyR7bGFuZ3VhZ2V9LyR7bmFtZXNwYWNlfS5qc29uYClcbiAgKSlcbiAgLmluaXQoe1xuICAgIC4uLmdldE9wdGlvbnMoKSxcbiAgICBsbmc6IHR5cGVvZiB3aW5kb3cgIT09ICd1bmRlZmluZWQnIFxuICAgICAgPyBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnc2VsZWN0ZWRMYW5ndWFnZScpIHx8ICdlbidcbiAgICAgIDogJ2VuJyxcbiAgICBmYWxsYmFja0xuZzogJ2VuJyxcbiAgICBkZXRlY3Rpb246IHtcbiAgICAgIG9yZGVyOiBbJ2xvY2FsU3RvcmFnZScsICduYXZpZ2F0b3InXSxcbiAgICAgIGNhY2hlczogWydsb2NhbFN0b3JhZ2UnXSxcbiAgICB9XG4gIH0pXG5cbmV4cG9ydCBjb25zdCBpMThuID0gaTE4bkluc3RhbmNlIl0sIm5hbWVzIjpbImNyZWF0ZUluc3RhbmNlIiwiaW5pdFJlYWN0STE4bmV4dCIsInJlc291cmNlc1RvQmFja2VuZCIsImdldE9wdGlvbnMiLCJpMThuSW5zdGFuY2UiLCJ1c2UiLCJsYW5ndWFnZSIsIm5hbWVzcGFjZSIsImluaXQiLCJsbmciLCJsb2NhbFN0b3JhZ2UiLCJnZXRJdGVtIiwiZmFsbGJhY2tMbmciLCJkZXRlY3Rpb24iLCJvcmRlciIsImNhY2hlcyIsImkxOG4iXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./src/app/i18n/client.ts\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   i18n: () => (/* binding */ i18n)\n/* harmony export */ });\n/* harmony import */ var i18next__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! i18next */ \"(ssr)/./node_modules/i18next/dist/esm/i18next.js\");\n/* harmony import */ var react_i18next__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-i18next */ \"(ssr)/./node_modules/react-i18next/dist/es/index.js\");\n/* harmony import */ var i18next_resources_to_backend__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! i18next-resources-to-backend */ \"(ssr)/./node_modules/i18next-resources-to-backend/dist/esm/index.js\");\n/* harmony import */ var _settings__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./settings */ \"(ssr)/./src/app/i18n/settings.ts\");\n/* __next_internal_client_entry_do_not_use__ i18n auto */ \n\n\n\nconst i18nInstance = (0,i18next__WEBPACK_IMPORTED_MODULE_0__.createInstance)();\ni18nInstance.use(react_i18next__WEBPACK_IMPORTED_MODULE_1__.initReactI18next).use((0,i18next_resources_to_backend__WEBPACK_IMPORTED_MODULE_2__[\"default\"])((language, namespace)=>__webpack_require__(\"(ssr)/./src/locales lazy recursive ^\\\\.\\\\/.*\\\\/.*\\\\.json$\")(`./${language}/${namespace}.json`))).init({\n    ...(0,_settings__WEBPACK_IMPORTED_MODULE_3__.getOptions)(),\n    lng:  false ? 0 : 'en',\n    fallbackLng: 'en',\n    detection: {\n        order: [\n            'localStorage',\n            'navigator'\n        ],\n        caches: [\n            'localStorage'\n        ]\n    }\n});\nconst i18n = i18nInstance;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvYXBwL2kxOG4vY2xpZW50LnRzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OzBEQUV3QztBQUNRO0FBQ2E7QUFDdEI7QUFFdkMsTUFBTUksZUFBZUosdURBQWNBO0FBRW5DSSxhQUNHQyxHQUFHLENBQUNKLDJEQUFnQkEsRUFDcEJJLEdBQUcsQ0FBQ0gsd0VBQWtCQSxDQUNyQixDQUFDSSxVQUFrQkMsWUFBc0IsaUZBQU8sR0FBZSxFQUFFRCxTQUFTLENBQUMsRUFBRUMsVUFBVSxNQUFNLENBQUMsR0FFL0ZDLElBQUksQ0FBQztJQUNKLEdBQUdMLHFEQUFVQSxFQUFFO0lBQ2ZNLEtBQUssTUFBNkIsR0FDOUJDLENBQWdELEdBQ2hEO0lBQ0pFLGFBQWE7SUFDYkMsV0FBVztRQUNUQyxPQUFPO1lBQUM7WUFBZ0I7U0FBWTtRQUNwQ0MsUUFBUTtZQUFDO1NBQWU7SUFDMUI7QUFDRjtBQUVLLE1BQU1DLE9BQU9aLGFBQVkiLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcU0tlbmNoYWdvdWRhXFxEZXNrdG9wXFxzbmVoYVxcc3JjXFxhcHBcXGkxOG5cXGNsaWVudC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIGNsaWVudCdcblxuaW1wb3J0IHsgY3JlYXRlSW5zdGFuY2UgfSBmcm9tICdpMThuZXh0J1xuaW1wb3J0IHsgaW5pdFJlYWN0STE4bmV4dCB9IGZyb20gJ3JlYWN0LWkxOG5leHQnXG5pbXBvcnQgcmVzb3VyY2VzVG9CYWNrZW5kIGZyb20gJ2kxOG5leHQtcmVzb3VyY2VzLXRvLWJhY2tlbmQnXG5pbXBvcnQgeyBnZXRPcHRpb25zIH0gZnJvbSAnLi9zZXR0aW5ncydcblxuY29uc3QgaTE4bkluc3RhbmNlID0gY3JlYXRlSW5zdGFuY2UoKVxuXG5pMThuSW5zdGFuY2VcbiAgLnVzZShpbml0UmVhY3RJMThuZXh0KVxuICAudXNlKHJlc291cmNlc1RvQmFja2VuZChcbiAgICAobGFuZ3VhZ2U6IHN0cmluZywgbmFtZXNwYWNlOiBzdHJpbmcpID0+IGltcG9ydChgLi4vLi4vbG9jYWxlcy8ke2xhbmd1YWdlfS8ke25hbWVzcGFjZX0uanNvbmApXG4gICkpXG4gIC5pbml0KHtcbiAgICAuLi5nZXRPcHRpb25zKCksXG4gICAgbG5nOiB0eXBlb2Ygd2luZG93ICE9PSAndW5kZWZpbmVkJyBcbiAgICAgID8gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ3NlbGVjdGVkTGFuZ3VhZ2UnKSB8fCAnZW4nXG4gICAgICA6ICdlbicsXG4gICAgZmFsbGJhY2tMbmc6ICdlbicsXG4gICAgZGV0ZWN0aW9uOiB7XG4gICAgICBvcmRlcjogWydsb2NhbFN0b3JhZ2UnLCAnbmF2aWdhdG9yJ10sXG4gICAgICBjYWNoZXM6IFsnbG9jYWxTdG9yYWdlJ10sXG4gICAgfVxuICB9KVxuXG5leHBvcnQgY29uc3QgaTE4biA9IGkxOG5JbnN0YW5jZSJdLCJuYW1lcyI6WyJjcmVhdGVJbnN0YW5jZSIsImluaXRSZWFjdEkxOG5leHQiLCJyZXNvdXJjZXNUb0JhY2tlbmQiLCJnZXRPcHRpb25zIiwiaTE4bkluc3RhbmNlIiwidXNlIiwibGFuZ3VhZ2UiLCJuYW1lc3BhY2UiLCJpbml0IiwibG5nIiwibG9jYWxTdG9yYWdlIiwiZ2V0SXRlbSIsImZhbGxiYWNrTG5nIiwiZGV0ZWN0aW9uIiwib3JkZXIiLCJjYWNoZXMiLCJpMThuIl0sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./src/app/i18n/client.ts\n");
 
 /***/ }),
 
@@ -239,6 +203,42 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   defaultNS: () => (/* binding */ defaultNS),\n/* harmony export */   fallbackLng: () => (/* binding */ fallbackLng),\n/* harmony export */   getOptions: () => (/* binding */ getOptions),\n/* harmony export */   languages: () => (/* binding */ languages)\n/* harmony export */ });\nconst fallbackLng = 'en';\nconst languages = [\n    fallbackLng,\n    'hi',\n    'ja'\n];\nconst defaultNS = 'translation';\nfunction getOptions(lng = fallbackLng, ns = defaultNS) {\n    return {\n        supportedLngs: languages,\n        fallbackLng,\n        lng,\n        fallbackNS: defaultNS,\n        defaultNS,\n        ns\n    };\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvYXBwL2kxOG4vc2V0dGluZ3MudHMiLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFPLE1BQU1BLGNBQWMsS0FBSTtBQUN4QixNQUFNQyxZQUFZO0lBQUNEO0lBQWE7SUFBTTtDQUFLO0FBQzNDLE1BQU1FLFlBQVksY0FBYTtBQUUvQixTQUFTQyxXQUFXQyxNQUFNSixXQUFXLEVBQUVLLEtBQUtILFNBQVM7SUFDMUQsT0FBTztRQUNMSSxlQUFlTDtRQUNmRDtRQUNBSTtRQUNBRyxZQUFZTDtRQUNaQTtRQUNBRztJQUNGO0FBQ0YiLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcU0tlbmNoYWdvdWRhXFxEZXNrdG9wXFxzbmVoYVxcc3JjXFxhcHBcXGkxOG5cXHNldHRpbmdzLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBmYWxsYmFja0xuZyA9ICdlbidcbmV4cG9ydCBjb25zdCBsYW5ndWFnZXMgPSBbZmFsbGJhY2tMbmcsICdoaScsICdqYSddXG5leHBvcnQgY29uc3QgZGVmYXVsdE5TID0gJ3RyYW5zbGF0aW9uJ1xuXG5leHBvcnQgZnVuY3Rpb24gZ2V0T3B0aW9ucyhsbmcgPSBmYWxsYmFja0xuZywgbnMgPSBkZWZhdWx0TlMpIHtcbiAgcmV0dXJuIHtcbiAgICBzdXBwb3J0ZWRMbmdzOiBsYW5ndWFnZXMsXG4gICAgZmFsbGJhY2tMbmcsXG4gICAgbG5nLFxuICAgIGZhbGxiYWNrTlM6IGRlZmF1bHROUyxcbiAgICBkZWZhdWx0TlMsXG4gICAgbnMsXG4gIH1cbn0iXSwibmFtZXMiOlsiZmFsbGJhY2tMbmciLCJsYW5ndWFnZXMiLCJkZWZhdWx0TlMiLCJnZXRPcHRpb25zIiwibG5nIiwibnMiLCJzdXBwb3J0ZWRMbmdzIiwiZmFsbGJhY2tOUyJdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./src/app/i18n/settings.ts\n");
+
+/***/ }),
+
+/***/ "(ssr)/./src/locales lazy recursive ^\\.\\/.*\\/.*\\.json$":
+/*!***************************************************************!*\
+  !*** ./src/locales/ lazy ^\.\/.*\/.*\.json$ namespace object ***!
+  \***************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var map = {
+	"./en/translation.json": [
+		"(ssr)/./src/locales/en/translation.json",
+		"_ssr_src_locales_en_translation_json"
+	],
+	"./hi/translation.json": [
+		"(ssr)/./src/locales/hi/translation.json",
+		"_ssr_src_locales_hi_translation_json"
+	]
+};
+function webpackAsyncContext(req) {
+	if(!__webpack_require__.o(map, req)) {
+		return Promise.resolve().then(() => {
+			var e = new Error("Cannot find module '" + req + "'");
+			e.code = 'MODULE_NOT_FOUND';
+			throw e;
+		});
+	}
+
+	var ids = map[req], id = ids[0];
+	return __webpack_require__.e(ids[1]).then(() => {
+		return __webpack_require__.t(id, 3 | 16);
+	});
+}
+webpackAsyncContext.keys = () => (Object.keys(map));
+webpackAsyncContext.id = "(ssr)/./src/locales lazy recursive ^\\.\\/.*\\/.*\\.json$";
+module.exports = webpackAsyncContext;
 
 /***/ }),
 
@@ -337,7 +337,7 @@ module.exports = require("url");
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@carbon","vendor-chunks/@floating-ui","vendor-chunks/flatpickr","vendor-chunks/downshift","vendor-chunks/i18next","vendor-chunks/resize-observer-polyfill","vendor-chunks/prop-types","vendor-chunks/tabbable","vendor-chunks/react-i18next","vendor-chunks/tslib","vendor-chunks/react-is","vendor-chunks/copy-to-clipboard","vendor-chunks/compute-scroll-into-view","vendor-chunks/use-resize-observer","vendor-chunks/html-parse-stringify","vendor-chunks/object-assign","vendor-chunks/@swc","vendor-chunks/classnames","vendor-chunks/invariant","vendor-chunks/i18next-resources-to-backend","vendor-chunks/toggle-selection","vendor-chunks/void-elements","vendor-chunks/window-or-global"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fdashboard%2Fpage&page=%2Fdashboard%2Fpage&appPaths=%2Fdashboard%2Fpage&pagePath=private-next-app-dir%2Fdashboard%2Fpage.tsx&appDir=C%3A%5CUsers%5CSKenchagouda%5CDesktop%5Csneha%5Csrc%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5CSKenchagouda%5CDesktop%5Csneha&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/i18next","vendor-chunks/react-i18next","vendor-chunks/html-parse-stringify","vendor-chunks/i18next-resources-to-backend","vendor-chunks/void-elements","vendor-chunks/@carbon","vendor-chunks/@floating-ui","vendor-chunks/flatpickr","vendor-chunks/downshift","vendor-chunks/resize-observer-polyfill","vendor-chunks/prop-types","vendor-chunks/tabbable","vendor-chunks/tslib","vendor-chunks/react-is","vendor-chunks/copy-to-clipboard","vendor-chunks/compute-scroll-into-view","vendor-chunks/use-resize-observer","vendor-chunks/object-assign","vendor-chunks/classnames","vendor-chunks/invariant","vendor-chunks/toggle-selection","vendor-chunks/window-or-global"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fdashboard%2Fpage&page=%2Fdashboard%2Fpage&appPaths=%2Fdashboard%2Fpage&pagePath=private-next-app-dir%2Fdashboard%2Fpage.tsx&appDir=C%3A%5CUsers%5CSKenchagouda%5CDesktop%5Csneha%5Csrc%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5CSKenchagouda%5CDesktop%5Csneha&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();

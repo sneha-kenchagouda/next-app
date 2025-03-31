@@ -1,8 +1,9 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/products/page": "app/products/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
-  "/products/[id]/page": "app/products/[id]/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
   "/archive/page": "app/archive/page.js",
-  "/sharedcomponents/page": "app/sharedcomponents/page.js"
+  "/products/page": "app/products/page.js",
+  "/sharedcomponents/page": "app/sharedcomponents/page.js",
+  "/products/[id]/page": "app/products/[id]/page.js",
+  "/dashboard/page": "app/dashboard/page.js"
 }
