@@ -39,7 +39,7 @@ const Dashboard = () => {
   
           <Column sm={4}>
             <h1 className="h1-design">Restore</h1>
-            <Tile onClick={() => router.push('/archive')}>
+            <Tile>
               <Document size="100" />
             </Tile>
           </Column>

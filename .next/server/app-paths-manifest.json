@@ -1,0 +1,8 @@
+{
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/products/page": "app/products/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/products/[id]/page": "app/products/[id]/page.js",
+  "/archive/page": "app/archive/page.js",
+  "/sharedcomponents/page": "app/sharedcomponents/page.js"
+}
